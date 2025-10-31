@@ -1,0 +1,34 @@
+input[type="radio"] {
+  appearance: none; /* Remove default styling */
+
+  width: 15px;
+  height: 15px;
+  border: 2px solid #333;
+  border-radius: 0; /* Square shape */
+  background-color: #fff;
+  cursor: pointer;
+  /* position: relative; */
+}
+input[type="radio"]:focus {
+  outline: 2px solid black; /* blue outline */
+  outline-offset: 2px;
+}
+.fieldset {
+  display: flex;
+  gap: 10px;
+  border: 1px solid black;
+  height: 5rem;
+  padding: 7px;
+  align-items: center;
+}
+.submit {
+  border: 3px solid black;
+  height: 3rem;
+  border-radius: 7px;
+  padding: 6px;
+}
+
+.submit:hover {
+  background-color: bisque;
+  border: 3px solid black;
+}

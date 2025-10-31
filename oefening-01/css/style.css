@@ -1,17 +1,28 @@
-body {
-  min-height: 100dvh;
-  background-color: blue;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#unTxt,
+#pswdTxt,
+.inloggen {
+  border: 2px solid;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+.parentContainer {
+  display: grid;
+  gap: 1rem;
 }
 
-.card {
-  width: ;
-  background-color: white;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 5rem;
-  padding-right: 5rem;
+#unTxt:hover {
+  color: blueviolet;
+}
+#pswdTxt:hover {
+  color: blueviolet;
+}
+.inloggen {
+  display: flex;
+  justify-content: center;
+  width: 6rem;
+  height: 4rem;
+  margin-top: 2rem;
+}
+.inloggen:hover {
+  color: blueviolet;
 }

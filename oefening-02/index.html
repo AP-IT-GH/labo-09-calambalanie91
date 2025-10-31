@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oefening 02</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="../layout/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="header">
+        <img src="../layout/assets/logo.png" alt="" width="50px" />
+        <h2>Keuzestress</h2>
+      </div>
+      <p>Maak een keuze</p>
+      <form action="https://www.example.com" method="get">
+        <fieldset class="fieldset">
+          <legend>Favoriete programmertaal</legend>
+          <input type="radio" name="programmertaal" value="C#" checked />C#
+          <input
+            type="radio"
+            name="programmertaal"
+            value="JavaScript"
+          />JavaScript
+          <input
+            type="radio"
+            name="programmertaal"
+            value="TypeScript"
+          />TypeScript
+          <input type="radio" name="programmertaal" value="Php" />PHP
+        </fieldset>
+        <br />
+        <fieldset class="fieldset">
+          <legend>Favoriete IDE</legend>
+          <input type="radio" name="ide" value="vs" checked />Visual Studio Code
+          <input type="radio" name="ide" value="wb" />WebStorm
+          <input type="radio" name="ide" value="vim" />Vim
+          <input type="radio" name="ide" value="Php" />PHPStorm
+        </fieldset>
+        <br>
+        <button type="submit" class="submit">bevestig je keuze</button>
+      </form>
+    </div>
+  </body>
+</html>

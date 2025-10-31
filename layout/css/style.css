@@ -13,7 +13,7 @@ body {
 }
 
 .card {
-  max-width: 250px;
+  max-width: 1000px;
   background-color: white;
   border-radius: 12px;
   padding-top: 1rem;
@@ -22,13 +22,14 @@ body {
   padding-right: 5rem;
   margin: 20px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+  gap: 20px;
 
   .header {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: flex-start;
     gap: 1rem;
     margin-bottom: 1rem;
   }

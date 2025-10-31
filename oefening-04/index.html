@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oefening 02</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="../layout/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="header">
+        <img src="../layout/assets/logo.png" alt="" width="50px" />
+        <h2>Music Streaming</h2>
+      </div>
+      <form action="https://www.example.com" method="get">
+        <fieldset class="fieldset">
+          <legend>Selecteer je streamingdiensten</legend>
+          <input type="radio" name="streaming" value="spotify" checked />Spotify
+          <input type="radio" name="streaming" value="ytMusic" />Youtube Music
+          <input type="radio" name="streaming" value="deezer" />Deezer
+          <input type="radio" name="streaming" value="tidal" />Tidal
+          <input type="radio" name="streaming" value="soundcloud" />SoundCloud
+        </fieldset>
+        <br>
+        <button type="submit" class="submit">Verzenden</button>
+      </form>
+    </div>
+  </body>
+</html>

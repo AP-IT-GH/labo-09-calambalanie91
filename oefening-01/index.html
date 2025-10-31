@@ -12,10 +12,32 @@
     <div class="card">
       <div class="header">
         <img src="./assets/logo.png" alt="" width="50px" />
-        <h2>Titel</h2>
+        <h2>Inloggen</h2>
       </div>
 
-      <p>Hier komt de inhoud</p>
+      <form
+        action="https://www.example.com"
+        method="GET"
+        class="parentContainer"
+      >
+        <div class="gebruikersnaam">
+          <label for="unTxt">Gebruikersnaam:</label>
+          <input
+            type="text"
+            name="gebruikersnaam"
+            size="15"
+            maxlength="30"
+            id="unTxt"
+          />
+        </div>
+        <div class="password">
+          <label for="pswdTxt">Wachtwoord:</label>
+          <input type="password" name="wachtwoord" size="15" id="pswdTxt" />
+        </div>
+        <div class="inloggen">
+          <button type="submit">Inloggen</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>
